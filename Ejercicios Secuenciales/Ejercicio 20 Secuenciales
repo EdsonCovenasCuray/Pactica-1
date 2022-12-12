@@ -1,0 +1,19 @@
+dinero=int(input("Ingrese la cantidad de dinero : S/. "))
+
+Billetes200=dinero//200
+Billetes100=(dinero%200)//100
+Billetes50=(dinero%200)%100//50
+Billetes20=(((dinero%200)%100)%50) //20
+Billetes10=((((dinero%200)%100)%50)%20) //10
+Moneda5=((((dinero%200)%100)%50)%20)%10 //5
+Moneda2=((((((dinero%200)%100)%50)%20)%10)%5) //2
+Moneda1=(((((((dinero%200)%100)%50)%20)%10)%5)%2) //1
+
+print("Billetes de 200 soles son : ",Billetes200)
+print("Billetes de 100 soles son : ",Billetes100)
+print("Billetes de 50 soles son : ",Billetes50)
+print("Billetes de 20 soles son : ",Billetes20)
+print("Billetes de 10n soles son : ",Billetes10)
+print("Moneda de 5 soles son : ",Moneda5)
+print("Moneda de 2 soles son : ",Moneda2)
+print("Moneda de 1 sol son : ",Moneda1)

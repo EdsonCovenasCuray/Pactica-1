@@ -1,0 +1,11 @@
+Primer_Examen =float(input("Primer_Examen: "))
+Segundo_Examen =float(input("Segundo_Examen: "))
+Tercer_Examen = float(input("Tercer_Examen: "))
+
+propina_mensual= 20
+
+if (Primer_Examen>17): propina_mensual+5
+if (Segundo_Examen>16): propina_mensual+5
+if (Tercer_Examen>18): propina_mensual+5
+
+print("Total de propina", propina_mensual)

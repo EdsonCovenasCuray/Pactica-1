@@ -1,0 +1,14 @@
+print("")
+horas_trabajadas=float(input("Ingrese las horas de trabajadas: "))
+tarifa_horaria=float(input("Ingrese la tarifa horaria: "))
+
+sueldo_basica= tarifa_horaria*horas_trabajadas
+bonificacion=sueldo_basica*0.20
+sueldo_bruto=sueldo_basica+bonificacion
+descuento=sueldo_bruto*0.10
+sueldo_neto=sueldo_bruto-descuento
+
+print("")
+print("Sueldo basico: S/:",format(sueldo_basica,".2f"))
+print("Sueldo bruto: S/.",format(sueldo_bruto,".2f"))
+print("Sueldo neto: S/.",format(sueldo_neto,".2f"))

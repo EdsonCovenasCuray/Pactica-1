@@ -1,0 +1,13 @@
+import os
+os.system("cls")
+
+r= float(input("Radio del Cilindro "))
+h= float(input("Altura del cilindro "))
+
+Area_B= 3.14* (r**2)
+Area_L= 2*3.14*r*h
+Area_T= 2 *Area_B*Area_L
+
+print("Area de la base del cilindro es", format(Area_B,".2f"))
+print("Area lateral del cilindro es",format(Area_L,".2f"))
+print("Area total del cilindro es",format(Area_T," .2f"))

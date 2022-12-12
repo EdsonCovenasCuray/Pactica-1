@@ -1,0 +1,19 @@
+Numero_1 =input("Primer Numero")
+Numero_2 =input("Segundo Numero")
+Numero_3 =input("Tercer Numero")
+
+if Numero_1<Numero_2: 
+   medio= Numero_2
+   xtam= Numero_3
+
+else:
+    medio = Numero_1
+    xtem = Numero_2
+
+if medio > Numero_3: 
+   medio = Numero_3
+
+if medio < xtem:
+   medio = xtem
+
+print("Numero medio: ", medio)

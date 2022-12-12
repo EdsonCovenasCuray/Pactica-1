@@ -1,0 +1,17 @@
+Salario= int(input("Ingerse el salario del profesor: "))
+
+if Salario < 18000:
+     salario= Salario + (Salario * 0.12)
+     print ("El nuevo salario del profesor es: ", Salario)
+
+elif 18000 <= Salario <= 30000:
+    Salario += (Salario * 0.08)
+    print ("El nuevo salario del profesor es",Salario)
+
+elif 30000 < Salario <= 50000:
+    Salario += (Salario * 0.07)
+    print ("El nuevo salario del profesor es",Salario)
+
+else:
+    Salario += (Salario * 0.06)
+    print ("El nuevo salario del profesor es",Salario)

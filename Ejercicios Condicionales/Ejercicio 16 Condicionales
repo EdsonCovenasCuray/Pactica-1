@@ -1,0 +1,8 @@
+n1 = int(input("Ingrese el primer numero: "))
+n2 = int(input("Ingre el segundo numero: "))
+n3 = int(input("Ingrese el tercer numero: "))
+
+if n1 < n2 < n3:
+    print("Los numeros estan ordenados de forma creciente")
+else:
+    print("Los numeros no estan ordenados de forma creciente")

@@ -1,0 +1,14 @@
+print("")
+
+num_segundo=int(input("Digita un numero expresado en segundo: "))
+
+dias=((num_segundo//60)//60)//24
+hora=((num_segundo//60)//60)%24
+minutos=(num_segundo//60)%60
+segundo=num_segundo%60
+
+print("Dias: ",dias)
+print("Horas: ",hora)
+print("Minutos: ",minutos)
+print("Segundos: ",segundo)
+print("")

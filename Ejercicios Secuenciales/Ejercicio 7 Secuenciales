@@ -1,0 +1,11 @@
+import os
+os.system("cls")
+
+Base_r =float(input("Base_r: "))
+Altura_r =float(input("Altura_r"))
+
+Area_r = Base_r * Altura_r
+Perimetro = 2*(Base_r + Altura_r)
+
+print("Area_r es",format(Area_r))
+print("Perimetro_r es",format(Perimetro))

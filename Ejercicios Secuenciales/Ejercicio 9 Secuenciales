@@ -1,0 +1,14 @@
+import os
+os.system("cls")
+
+Numero = int(input("Ingresar un numero de 4 cifras: "))
+
+cifra_1 =int(Numero/1000)
+cifra_2 =int((Numero%1000)/1000)
+cifra_3 =int(((Numero%1000)%1000)/10)
+cifra_4 =Numero%10
+
+print(cifra_1)
+print(cifra_2)
+print(cifra_3)
+print(cifra_4)

@@ -1,0 +1,11 @@
+import os
+os.system("cls")
+
+Numero =int(input("Ingresa un numero: "))
+
+c1=Numero//1000
+c2=(Numero%1000)//100
+c3=(((Numero%1000)%100)//10)
+c4=Numero%10
+
+print("El numero al reves es ",(c4*1000)+(c3*100)+(c2*10)+c1)

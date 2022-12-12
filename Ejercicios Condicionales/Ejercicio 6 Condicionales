@@ -1,0 +1,11 @@
+import os
+os.system("cls")
+
+edad = int(input("¿Quien es mayor o quien es menor?"))
+
+if edad >17:
+    print("Eres mayor de edad")
+elif  edad >19:
+    print("Eres mayor de edad")
+else :
+    print("Eres menor de edad")

@@ -1,0 +1,11 @@
+import os
+os.system("cls")
+
+h =float(input("Altura del cilindro"))
+r =float(input("radio de un cilindro"))
+
+Area = 2*3.14*r *r+h
+Volumen = 3.14* r**2*h
+
+print (f"Area total: {Area: .2f}")
+print (f"Volumen: {Volumen: .2f}")

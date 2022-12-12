@@ -1,0 +1,29 @@
+codigo =float(input("Valor del codigo:"))
+unidades_tomadas =float(input("Valor de Unidades tomadas: "))
+
+importe_de_descuento =0
+Precio_Unitario =0
+if codigo== 101:
+    Precio_Unitario= 17
+if codigo== 102:
+    Precio_Unitario= 25
+if codigo== 103:
+    Precio_Unitario= 16
+if codigo== 104:
+    Precio_Unitario= 27
+
+importe_de_la_compra= Precio_Unitario * unidades_tomadas
+if unidades_tomadas>= 1 and unidades_tomadas<=10:
+    importe_de_descuento= importe_de_la_compra * 0.05
+if unidades_tomadas>= 11 and unidades_tomadas<=20:
+    importe_de_descuento= importe_de_la_compra * 0.08
+if unidades_tomadas>= 21 and unidades_tomadas<= 30:
+    importe_de_descuento= importe_de_la_compra * 0.1
+if unidades_tomadas>= 31:
+    importe_de_descuento= importe_de_la_compra * 0.13
+
+importe_a_pagar= importe_de_la_compra - importe_de_descuento
+print ('importe_a_pagar: ' + repr (importe_a_pagar))
+print ('importe de la compra: ' + repr (importe_de_la_compra))
+print ('importe del descuento: ' + repr(importe_de_descuento))
+print ('Precio unitario: ' + repr(Precio_Unitario)) 

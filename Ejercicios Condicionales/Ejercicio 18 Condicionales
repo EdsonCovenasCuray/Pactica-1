@@ -1,0 +1,16 @@
+n1 = float(input("Ingrese el primer numero: "))
+n2 = float(input("Ingrese el segundo numero: "))
+n3 = float(input("Ingrese el tercer numero: "))
+
+n1 > n2, n1 > n3
+n2 > n1, n2 > n3
+n3 > n1, n3 > n2
+
+if n2 < n1 > n3:
+    print("El numero mayor es el primero numero. Numero:", n1)
+elif n1 < n2 > n3:
+    print("Elnumero mayor es el segundo numero. Numero:", n2)
+elif n1 < n3 > n2:
+    print("El numero mayor es el tercer numero. Numero:",n3)
+else:
+    print("Todos los numneros son iguales.")
